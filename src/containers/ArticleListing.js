@@ -8,7 +8,7 @@ function ArticleListing(){
     return(
         //<!--returning html here-->
         <div>
-            <h1>{listTitle}</h1> 
+            <h1 className = "HeaderOne">{listTitle}</h1> 
         </div>
     );
 }
