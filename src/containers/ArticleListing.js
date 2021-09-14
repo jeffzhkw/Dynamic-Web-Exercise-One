@@ -4,7 +4,7 @@ import React from 'react';
 function ArticleListing(){
     //regular js
     //const aVar = "some value"
-    const listTitle = "`Articles"
+    const listTitle = `This is a list of articles`
     return(
         //<!--returning html here-->
         <div>
