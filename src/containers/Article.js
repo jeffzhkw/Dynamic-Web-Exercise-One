@@ -7,6 +7,7 @@ function Article(){
         <div>
             <h1>{articleTitle}</h1>
         </div>
+       
     );
 }
 
