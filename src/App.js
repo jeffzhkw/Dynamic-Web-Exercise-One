@@ -30,7 +30,6 @@ function App() {
 
         </Switch>
       </Router>
-      <header>npm start</header>
     </div>
   );
 }
