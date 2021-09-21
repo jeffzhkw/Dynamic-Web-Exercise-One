@@ -10,7 +10,7 @@
 .HeaderOne {
     font-size: 80px;
     font-weight: normal;
-    margin: 40px;
+    margin: 40px auto;
 }
 
 /*-------ArticleCard.js-------*/
@@ -62,4 +62,53 @@
 
 .ArticleCardLink{
     margin: 20px;
+}
+
+/*Article.js*/
+
+.ArticleHeaderBlurb{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.ArticleHeader{
+    background-color: grey;
+    margin: 0 auto;
+    padding: 40px 0;
+
+
+
+}
+.ArticleHeaderText{
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 0 25px;
+
+}
+
+.ArticleText{
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 0 25px;
+}
+
+.ArticleText p{
+    font-size: 14px;
+    line-height: 1.5;
+
+}
+
+.ArticleText h2{/*target any h2 under ArticleText*/
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.ArticleText h3{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+
 }
