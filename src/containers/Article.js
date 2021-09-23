@@ -20,8 +20,7 @@ function Article(){
 
     return(
         <main>
-            <section 
-                className = "ArticleHeader" 
+            <section className = "ArticleHeader" 
                 style = {{backgroundImage: `url('${article.image && article.image.url}')`,
                     backgroundPosition: "center", 
                     backgroundSize: 'cover'

@@ -13,8 +13,6 @@ import ArticleListing from "./containers/ArticleListing";
 
 function App() {
   return (
-    
-    <div className="App">
       <Router>
         <Switch>
       
@@ -26,11 +24,8 @@ function App() {
             <ArticleListing />
           </Route>
           
-          
-
         </Switch>
       </Router>
-    </div>
   );
 }
 

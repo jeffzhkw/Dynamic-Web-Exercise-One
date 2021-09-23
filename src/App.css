@@ -1,16 +1,19 @@
 *{
     box-sizing: border-box;
 }
-.App{
-    display: block;
+
+/*-------ArticleListing.js-------*/
+.ArticleListingWrapper{
     margin: 0 auto;
+    max-width: 1160px;
     padding: 0 25px;
+
 }
 
-.HeaderOne {
+.HeaderOneStyle {
     font-size: 80px;
     font-weight: normal;
-    margin: 40px auto;
+    margin: 60px 0;
 }
 
 /*-------ArticleCard.js-------*/
@@ -20,14 +23,13 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin: 40px;
+    margin-bottom: 40px;
     padding: 25px;
-
-
 }
 
 .ArticleCardImage{
     flex-basis: 30%;
+    padding-right: 20px;
     
 }
 
@@ -38,53 +40,54 @@
 }
 
 .ArticleCardText{
-    flex-basis: 60%;
-    margin-left: 24px;
+    flex-basis: 70%;
     
 }
 
 .ArticleCardTitle{
     font-size: 36px;
     font-weight: bold;
-    margin: 20px;
+    margin: 0px;
 
 }
 
 .ArticleCardDate{
-    margin: 20px;
+    font-size: 14px;
+    margin-bottom: 8px;
 
 }
 
 .ArticleCardBlurb{
-    margin: 20px;
-
-}
-
-.ArticleCardLink{
-    margin: 20px;
-}
-
-/*Article.js*/
-
-.ArticleHeaderBlurb{
     font-size: 16px;
-    line-height: 1.5;
+    margin-bottom: 8px;
+
 }
+
+.ArticleCardLink a{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*-------Article.js-------*/
+
 
 .ArticleHeader{
     background-color: grey;
-    margin: 0 auto;
-    padding: 40px 0;
-
-
-
+    padding: 40 0;
 }
+
 .ArticleHeaderText{
     margin: 0 auto;
     max-width: 640px;
     padding: 0 25px;
 
 }
+
+.ArticleHeaderBlurb{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
 
 .ArticleText{
     margin: 0 auto;
@@ -106,9 +109,11 @@
 }
 
 .ArticleText h3{
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
     margin: 0;
     margin-bottom: 20px;
 
 }
+
+
