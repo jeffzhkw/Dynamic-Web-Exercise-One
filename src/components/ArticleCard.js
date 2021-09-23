@@ -1,7 +1,12 @@
 import React from "react";
 
 function ArticleCard({article}){
-    console.log(article)
+    
+    const newDate = new Date(article.publishedDate);
+    const dateString = newDate.toDateString();
+    // const dateString = `${newDate.getMonth()}/${newDate.getMonth()}/${newDate.getFullYear()}`
+
+
     return(
         <div className = "ArticleCardWrapper">
             <div className = "ArticleCardImage">
@@ -9,10 +14,10 @@ function ArticleCard({article}){
             </div>
             <div className = "ArticleCardText">
                 <h2 className = "ArticleCardTitle">{article.title}</h2>
-                <p className = "ArticleCardDate">{article.publishedDate}</p>
+                <p className = "ArticleCardDate">{dateString}</p>
                 <p className = "ArticleCardBlurb">{article.blurb}</p>
                 <p className = "ArticleCardLink">
-                    <a href = "#">Read more</a>
+                    <a href = {`/article/${article.id}`}>Read more</a>
                 </p>
             </div>
         </div>
